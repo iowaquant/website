@@ -1,0 +1,117 @@
+html {
+  margin: 20px;
+  margin: auto;
+}
+
+body {
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/* a h1 {
+  color: white;
+} */
+
+/* Navigation Bar */
+.container-fluid {
+  padding: 0 1% 1%;
+}
+
+.container-fluid {
+  background-color: #ffcd00;
+  margin-bottom: 20px;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}
+
+.sub-title {
+  text-align: left;
+}
+
+/* Main Content */
+.main-content {
+  padding: 2% 14% 5%;
+  /* background-color: white; */
+  position: relative;
+  z-index: 1;
+  margin-bottom: 100px;
+}
+
+.btn-circle.btn-xl {
+  width: 250px;
+  height: 250px;
+  padding: 5% 3%;
+  border-radius: 50%;
+  font-size: 24px;
+  line-height: 1.33;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.row {
+  margin-top: 10%;
+}
+
+#circle1 {
+  background-color: #ffcd00;
+  color: black;
+}
+
+#circle2 {
+  background-color: black;
+  color: #ffcd00;
+}
+
+#circle3 {
+  background-color: #ffcd00;
+  color: black;
+}
+
+#circle4 {
+  background-color: black;
+  color: #ffcd00;
+}
+
+/* Footer Section */
+#footer {
+  background-color: #ffcd00;
+  margin-top: 5%;
+  padding: 10px 0 0;
+  flex: 0 0 50px;
+  margin-top: auto;
+}
+
+.footer-icons {
+  margin-top: 2%;
+  margin-bottom: 1.5%;
+}
+
+.footer-icon {
+  margin: 0 0.8%;
+}
+
+.copyright {
+  padding-top: 10px;
+  margin-bottom: 0;
+}
